@@ -15,3 +15,16 @@ body {
     transform: translate(-50%, -50%);
 
 }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.input-search {
+    left: 7px;
+    top: 12px;
+}
+
+.button-shadow {
+    box-shadow: rgb(66, 91, 117) 0px 20px 30px -10px;
+}
