@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task(Al Amin Alif)</title>
+    <script src="https://kit.fontawesome.com/ba4dddff5d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HERO SECTION -->
+
+    <header class="bg-blue-800 text-white h-screen w-screen relative px-6">
+        <div class="flex  justify-between pt-3">
+            <div class="flex items-center">
+                <img src="./Content/hero-section/Group 183.png" alt="">
+                <p class="text-3xl ml-1"><strong>wp</strong>pool</p>
+            </div>
+            <div class="flex items-center  ">
+                <i class="border rounded-full mr-2 p-2 fa-solid fa-share-nodes"></i>
+                <p class="border rounded-full text-xs   px-4 py-1   ">Download the 2024 Report</p>
+                <i class="ml-4 text-xl fa-solid fa-bars "></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col items-center absolute hero-title z-10 ">
+                <p class="text-7xl">The WPPOOL Index</p>
+                <p>Monitor the performance of emerging, publicly traded, financial technology companies</p>
+            </div>
+        </div>
+        <div class="mt-72">
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">60</p>
+                <p class="text-xs">Companies</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">$100B</p>
+                <p class="text-xs">Market Cap</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">3.5x</p>
+                <p class="text-xs">Revenue Multiple</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">605</p>
+                <p class="text-xs">LTM avg growth Rate</p>
+            </div>
+        </div>
+        <div class="absolute hero-bg-image brightness-50">
+            <img src="./Content/hero-section/Mask_group-removebg-preview.png" alt="">
+        </div>
+        <div class="absolute hero-bg-image">
+            <img src="./Content/hero-section/Rectangle 1.png" alt="">
+        </div>
+    </header>
+
+    <!-- CHART SECTION  -->
+
+    <div>
+        <div>
+            <p class="text-3xl">The WPPOOL Index</p>
+        </div>
+        <div>
+            <div class="flex gap-8">
+                <p class="text-3xl text-red-400">+66.2%</p>
+                <p class="text-xs pr-2 border-red-600 border-r-4">WPPOOL <br> index</p>
+            </div>
+            <div class="flex gap-8">
+                <p class="text-3xl text-blue-400">+26.2%</p>
+                <p class="text-xs pr-2 border-blue-600 border-r-4">Google <br> index</p>
+            </div>
+            <div class="flex gap-8">
+                <p class="text-3xl text-green-500">+34.2%</p>
+                <p class="text-xs pr-2 border-green-600 border-r-4">Microsoft </p>
+            </div>
+            <div class="flex gap-8">
+                <p class="text-3xl text-red-400">+17%</p>
+                <p class="text-xs pr-2 border-red-600 border-r-4">Twitter <br> index</p>
+            </div>
+        </div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
