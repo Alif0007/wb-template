@@ -1,5 +1,7 @@
 
-
+const dropHero = document.getElementById('menuBar')
+const cross = document.getElementById('crossBar')
+const menu = document.getElementById('menu')
 const ctx = document.getElementById('myChart');
 
 new Chart(ctx, {
@@ -54,3 +56,13 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
 });
+
+dropHero.addEventListener('click', function () {
+    menu.classList.remove("hidden");
+});
+cross.addEventListener('click', function () {
+    menu.classList.add("hidden");
+
+
+});
+

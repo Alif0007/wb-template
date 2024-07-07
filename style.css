@@ -16,6 +16,12 @@ body {
 
 }
 
+.dropdown-hero {
+    left: 80%;
+    top: 11px;
+    z-index: 20;
+}
+
 tr:nth-child(even) {
     background-color: #dddddd;
 }
