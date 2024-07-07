@@ -39,3 +39,18 @@ new Chart(ctx, {
     }
 });
 
+// slider section 
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2.3,
+    spaceBetween: 0,
+    freeMode: true,
+    navigation: {
+        nextEl: '.slider-next',
+        prevEl: '.slider-prev',
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
