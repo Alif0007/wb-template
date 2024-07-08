@@ -89,3 +89,26 @@ tr:nth-child(even) {
 .p-vw-foot-para {
     padding: 0 4vw 4vw 4vw;
 }
+
+.hero-side-info {
+    top: 55%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero-side-info {
+        display: flex;
+        gap: .725rem;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-side-info {
+        display: flex;
+        gap: 1.25rem;
+        top: 75%;
+        left: 20%;
+
+    }
+}
