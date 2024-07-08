@@ -17,8 +17,8 @@ body {
 }
 
 .dropdown-hero {
-    left: 80%;
-    top: 11px;
+    left: -238px;
+    top: -33px;
     z-index: 20;
 }
 
@@ -101,9 +101,11 @@ tr:nth-child(even) {
         gap: .725rem;
         top: 75%;
     }
+
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
     .hero-side-info {
         display: flex;
         gap: 1.25rem;
